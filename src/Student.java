@@ -33,7 +33,7 @@ class Age extends BCA{
         System.out.println("2nd class");
      }
  
-      public static void main(String args[])
+      public static void main(StringVowels args[])
      {
        Age obj= new Age();
        obj.name="rahul";

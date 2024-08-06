@@ -8,7 +8,7 @@
  *
  * @author user
  */
-public class Studentstatic {
+public class Studentstat {
  int rollno;
  String name;
  static String college ="ITS";
@@ -17,7 +17,7 @@ public class Studentstatic {
  {
      college = "BBDIT";
  } 
- Studentstatic(int r , String n){
+ Studentstat(int r , String n){
  
       rollno = r;
       name = n;
@@ -26,12 +26,12 @@ public class Studentstatic {
  
       System.out.println(rollno+" "+name+" "+college);
  }
- public static void main(String args[]){
+ public static void main(StringVowels args[]){
  
       change();
-      Studentstatic s1 = new Studentstatic(111,"Diya");
-      Studentstatic s2 = new Studentstatic(112,"sayooj");
-      Studentstatic s3 = new Studentstatic(113,"Rahul");
+      Studentstat s1 = new Studentstat(111,"Diya");
+      Studentstat s2 = new Studentstat(112,"sayooj");
+      Studentstat s3 = new Studentstat(113,"Rahul");
       s1.display();
       s2.display();
       s3.display();
