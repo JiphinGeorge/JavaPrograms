@@ -1,4 +1,4 @@
-public class Marks {
+ class Marks {
     private int math;
     private int science;
     private int english;
