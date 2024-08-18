@@ -22,7 +22,7 @@ public class Sumandrev {
     }
 }
 class Sumrev{
-    public static void main(String[] args) {
+    public static void main(StringVowels[] args) {
         int n;
         System.out.println("Enter a number :");
         Scanner sc= new Scanner(System.in);
