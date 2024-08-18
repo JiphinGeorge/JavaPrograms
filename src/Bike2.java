@@ -14,7 +14,7 @@ obj.run();
 }
 
 
-//  You can directly call the parent class’s run() method within the overridden method
+//  You can directly call the parent class run() method within the overridden method
 //  using the super keyword without creating an additional method. Here’s how:
 
 // class Vehicle {
