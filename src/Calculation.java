@@ -10,7 +10,7 @@ public class Calculation {
         rem=x%y;
         System.out.println("Sum is "+sum);
         System.out.println("Difference is "+sub);
-        System.out.println("Multiplication is "+mul);
+        System.out.println("Multiplicate is "+mul);
         System.out.println("Quotient is "+div);
         System.out.println("Remainder is "+rem);
         
