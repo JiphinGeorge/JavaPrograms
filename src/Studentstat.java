@@ -17,7 +17,7 @@ public class Studentstat {
  
       System.out.println(rollno+" "+name+" "+college);
  }
- public static void main(String args[]){
+ public static void main(StringVowels args[]){
  
       change();
       Studentstat s1 = new Studentstat(111,"Diya");
