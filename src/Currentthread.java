@@ -23,7 +23,7 @@ public class Currentthread {
 class A extends Thread{
     public void run()
     {
-        for(int i=0;i<10;i++){
+        for(int i=0;i<4;i++){
             System.out.println("new thread");
         }
 }
@@ -33,7 +33,7 @@ class Bclass
     public static void main(String args[]){
         A t=new A();
         t.start();
-        for(int i=0;i<10;i++){
+        for(int i=0;i<4;i++){
             System.out.println("main thread");
         }
     }
