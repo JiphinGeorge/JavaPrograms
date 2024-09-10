@@ -44,7 +44,7 @@ class Hai extends Mark {
     }
 
     public void displayMarksAndResult() {
-        displayStudentDetails(); 
+       
         System.out.println("Marks obtained in 5 subjects:");
         for (int i = 0; i < 5; i++) {
             System.out.println("Subject " + (i + 1) + ": " + marks[i]);
