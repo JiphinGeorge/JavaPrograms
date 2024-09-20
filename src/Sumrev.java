@@ -21,12 +21,13 @@ import java.util.Scanner;
         System.out.println(" Reverse of the number is "+rev);
     }
 }
-class Sumrev {
+public class Sumrev {
     public static void main(String[] args) {
         int n;
         System.out.println("Enter a number :");
-        Scanner sc= new Scanner(System.in);
-        n= sc.nextInt();
+        Scanner dig= new Scanner(System.in);
+        n= dig.nextInt();
+        dig.close();
         Sumandrev obj= new Sumandrev();
         obj.sum(n);
         obj.reverse(n);
