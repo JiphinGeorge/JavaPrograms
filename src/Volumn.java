@@ -40,7 +40,7 @@ class Cal {
         System.out.print("Enter the radius and height of the cylinder : ");
         a = s.nextDouble();
         b = s.nextDouble();
-
+        s.close();
         obj.findVolume(a, b);
     }
 }

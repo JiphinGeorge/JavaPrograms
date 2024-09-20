@@ -16,7 +16,7 @@ public class Userexception {
             System.out.println(e);
          }
     }
-    public static void main(StringVowels[] args) {
+    public static void main(String[] args) {
         Userexception t = new Userexception();
         t.check();
     }
