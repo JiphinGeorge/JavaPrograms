@@ -34,7 +34,7 @@ class StudentMark extends Mark {
         }
     }
 
-    private void calculateTotalAndAverage() {
+     void calculateTotalAndAverage() {
         total = 0;
         for (int mark : marks) {
             total += mark;
@@ -53,7 +53,7 @@ class StudentMark extends Mark {
         System.out.println("Average Marks: " + average);
     }
 }
-class Hello {
+class Students {
     public static void main(String[] args) {
         StudentMark marks = new StudentMark();
        
@@ -65,4 +65,4 @@ class Hello {
 }
 
 
-
+ 
