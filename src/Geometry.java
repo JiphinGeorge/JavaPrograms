@@ -18,8 +18,8 @@ public class Geometry {
     void dispVolume(){
         double spherevolume=(4.0/3.0)*Math.PI*Math.pow(radius, 3);
         System.out.println("volume of the sphere:"+spherevolume);
-        double culindervolume=Math.PI*Math.pow(cylinderradius, 2)*height;
-        System.out.println("volume of the cylinder:"+culindervolume);
+        double cylindervolume=Math.PI*Math.pow(cylinderradius, 2)*height;
+        System.out.println("volume of the cylinder:"+cylindervolume);
         
     }
         
