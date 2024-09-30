@@ -1,5 +1,5 @@
 public class Try {
-        public static void main(StringVowels[ ] args) {
+        public static void main(String[] args) {
             try  
             {  
             int data=50/0;   

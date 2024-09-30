@@ -12,6 +12,7 @@ public class Armstrong {
         number1=sc.nextInt();
         System.out.println("Enter the Second number");
         number2=sc.nextInt();
+        sc.close();
         System.out.println("The Armstrong numbers are ");
         for(int i=number1;i<=number2;i++)
       {

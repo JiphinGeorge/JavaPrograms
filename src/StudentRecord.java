@@ -1,7 +1,7 @@
  class Marks {
-    private int math;
-    private int science;
-    private int english;
+    private final int math;
+    private final int science;
+    private final int english;
 
     // Constructor
     public Marks(int math, int science, int english) {
@@ -51,11 +51,11 @@
 }
 
 public class StudentRecord {
-    private String name;
-    private Marks marks;
+    private final String name;
+    private final Marks marks;
 
     // Constructor
-    public StudentRecord(String name, Marks marks) {
+     StudentRecord(String name, Marks marks) {
         this.name = name;
         this.marks = marks;
     }
@@ -66,7 +66,7 @@ public class StudentRecord {
     }
 
     // Get student marks
-    public Marks getMarks() {
+    Marks getMarks() {
         return marks;
     }
 

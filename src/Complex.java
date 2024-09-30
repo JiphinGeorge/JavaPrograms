@@ -17,8 +17,8 @@ void display(){
     System.out.println(this.real + " + "+ this.img+"i");
 }
 }
-public class Complex{
-    public static void main(StringVowels[] args) {
+public class Complex{ 
+    public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
         System.out.println("Enter the first Complex no :");
         ComplexNo c1 = new ComplexNo(sc.nextDouble(),sc.nextDouble());

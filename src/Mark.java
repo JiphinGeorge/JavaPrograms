@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 
 public class Mark {
@@ -21,7 +20,7 @@ public class Mark {
     }
 }
 
-class Hai extends Mark {
+class StudentMark extends Mark {
      int[] marks = new int[5];
      int total;
      double average;
@@ -35,7 +34,7 @@ class Hai extends Mark {
         }
     }
 
-    private void calculateTotalAndAverage() {
+     void calculateTotalAndAverage() {
         total = 0;
         for (int mark : marks) {
             total += mark;
@@ -44,7 +43,7 @@ class Hai extends Mark {
     }
 
     public void displayMarksAndResult() {
-       
+        displayStudentDetails(); 
         System.out.println("Marks obtained in 5 subjects:");
         for (int i = 0; i < 5; i++) {
             System.out.println("Subject " + (i + 1) + ": " + marks[i]);
@@ -54,9 +53,9 @@ class Hai extends Mark {
         System.out.println("Average Marks: " + average);
     }
 }
-class Hello {
+class Students {
     public static void main(String[] args) {
-        Hai marks = new Hai();
+        StudentMark marks = new StudentMark();
        
         marks.readStudentDetails();
         
@@ -66,4 +65,4 @@ class Hello {
 }
 
 
-
+ 

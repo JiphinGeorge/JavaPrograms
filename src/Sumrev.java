@@ -1,7 +1,19 @@
 
 import java.util.Scanner;
 
-public class Sumandrev {
+public class Sumrev {
+    public static void main(String[] args) {
+        int n;
+        System.out.println("Enter a number :");
+        Scanner dig= new Scanner(System.in);
+        n= dig.nextInt();
+        Sumandrev obj= new Sumandrev();
+        obj.sum(n);
+        obj.reverse(n);
+    }
+}
+class Sumandrev {
+    
     int sum=0, rev=0,reminder;
     void sum(int num){
         while(num>0){
@@ -19,16 +31,5 @@ public class Sumandrev {
             num=num/10;
         }
         System.out.println(" Reverse of the number is "+rev);
-    }
-}
-class Sumrev{
-    public static void main(StringVowels[] args) {
-        int n;
-        System.out.println("Enter a number :");
-        Scanner sc= new Scanner(System.in);
-        n= sc.nextInt();
-        Sumandrev obj= new Sumandrev();
-        obj.sum(n);
-        obj.reverse(n);
     }
 }

@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 class Tranceandtrace {
-    public static void main(StringVowels[] args) {
+    public static void main(String[] args) {
 
         int matrix[][];
         int transpose[][];
