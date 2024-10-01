@@ -1,5 +1,4 @@
-
-import java.applet.*;
+import java.applet.Applet;
 import java.awt.*;
 import java.awt.event.*;
 
@@ -39,7 +38,7 @@ public class AWTExample extends Applet implements ActionListener {
         }
         
         String action = event.getActionCommand();
-        if (action.equals("Add")) { t
+        if (action.equals("Add")) { 
             actionMessage = "Add button pressed"; 
         } else if (action.equals("Delete")) { 
             actionMessage = "Delete button pressed"; 
