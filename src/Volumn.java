@@ -17,7 +17,7 @@ class Cal {
     }
 }
 
- class Volume {
+ class Volumn {
     public static void main(String args[]) {
         double a, b, c;
 
