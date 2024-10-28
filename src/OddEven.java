@@ -16,7 +16,7 @@ class evennum implements Runnable{
         }
     }
 }
-public class OddEven{
+public class OddEven{ 
     public static void main(String[] args) {
         Oddnum t1= new Oddnum();
         evennum t2= new evennum();
