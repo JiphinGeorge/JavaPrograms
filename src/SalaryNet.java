@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 class Salary {
     int empid;
@@ -45,7 +46,7 @@ class Salary1 extends Salary {
     }
 }
 
- class pgm2 {
+ class SalaryNet{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
