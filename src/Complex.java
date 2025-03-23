@@ -1,5 +1,19 @@
 import java.util.Scanner;
 
+
+
+public class Complex{ 
+    public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
+        System.out.println("Enter the first Complex no :");
+        ComplexNo c1 = new ComplexNo(sc.nextDouble(),sc.nextDouble());
+        System.out.println("Enter the second Complex no :");
+        ComplexNo c2 = new ComplexNo(sc.nextDouble(),sc.nextDouble());
+        ComplexNo sum = c1.add(c2);
+        System.out.print("Sum is ");
+        sum.display();
+    }
+}
 class ComplexNo{
     double real, img;
 
@@ -17,15 +31,4 @@ void display(){
     System.out.println(this.real + " + "+ this.img+"i");
 }
 }
-public class Complex{ 
-    public static void main(String[] args) {
-        Scanner sc = new Scanner (System.in);
-        System.out.println("Enter the first Complex no :");
-        ComplexNo c1 = new ComplexNo(sc.nextDouble(),sc.nextDouble());
-        System.out.println("Enter the second Complex no :");
-        ComplexNo c2 = new ComplexNo(sc.nextDouble(),sc.nextDouble());
-        ComplexNo sum = c1.add(c2);
-        System.out.print("Sum is ");
-        sum.display();
-    }
-}
+

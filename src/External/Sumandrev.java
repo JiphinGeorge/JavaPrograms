@@ -1,37 +1,51 @@
 package External;
 
 import java.util.Scanner;
+public class Sumandrev{
 
-public class  Sumandrev{
-
-public static void main(String args[])
-{
-Scanner sc = new Scanner(System.in);
-System.out.println("Enter a digit to find the sum and Reverse :");
-int sum = sc.nextInt();
-Childsumandrev obj = new Childsumandrev();
-obj.sum(sum);
-obj.rev(sum);
-}
-}
-class Childsumandrev{
-int s=0,rev=0;
-        void sum(int a){
-        while(a>0)
-        {
-        int last= a%10;
-        s=s+last;
-        a=a/10;
+        public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+       System.out.println("Enter the Number :");
+       int num = sc.nextInt();
+       Childrev obj = new Childrev();
+       obj.sum(num);
+       obj.rev(num);
+       }
+         }
+       
+       class Childrev{
+         void rev(int a)
+       
+       {
+         int sum=0, d;
+       while(a>0){
+       
+       d=a%10;
+       sum=sum*10+d;
+       a=a/10;
+       
         }
-        System.out.println("The sum is "+s);
-                }
-        void rev(int a){
-
-        while(a>0){
-        int last=a%10;
-        rev= rev*10+last;
-        a=a/10;
+       System.out.println("The Reverse of the Number is :"+sum);
+       
+       
         }
-        System.out.println("The Revese of the number is "+rev);
+       
+       
+        void sum(int a)
+       
+       {
+         int sum=0, d;
+       while(a>0){
+       
+       d=a%10;
+       sum=sum+d;
+       a=a/10;
+       
         }
-}
+       System.out.println("The Sum of the Number is :"+sum);
+       
+       
+        }
+       
+       
+        } 

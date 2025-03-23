@@ -1,7 +1,13 @@
 
 import java.util.Scanner;
 
-
+class volume{
+    public static void main(String[]args){
+        Geometry ge=new Geometry();
+        ge.readData();
+        ge.dispVolume();
+    }
+}
 public class Geometry {
      double radius;
      double height;
@@ -24,11 +30,5 @@ public class Geometry {
     }
         
     }
-class volume{
-    public static void main(String[]args){
-        Geometry ge=new Geometry();
-        ge.readData();
-        ge.dispVolume();
-    }
-}
+
   
