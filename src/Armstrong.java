@@ -6,7 +6,6 @@ public class Armstrong {
     public static void main(String args[])
     {
         int number1,number2;
-        
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the First number");
         number1=sc.nextInt();

@@ -41,7 +41,7 @@ class Tranceandtrace {
                 for (int j = 0; j < c; j++) {
                     transpose[j][i] = matrix[i][j];
                     if (i == j) {
-                        sum = sum + (matrix[i][j]);
+                        sum = sum + matrix[i][j];
                     }
                 }
             }
